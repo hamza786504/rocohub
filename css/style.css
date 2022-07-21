@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.14.0/css/all.css"); 
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+a , a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+:root{
+    --primary : #038bfc;
+}
+.hero_section{
+    background: url("../images/hero-1.png");
+    background-repeat: no-repeat;
+    /* aspect-ratio: 3/1; */
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    padding: 10px 0 40px 0;
+}
+.hero_image{
+    max-width: 470px;
+    margin: 0 auto;
+    width: 95%;
+}
+.hero_image img{
+    width: 100%;
+}
+.hero_text_cover{
+    width: 95%;
+    margin: 0 auto;
+}
+.hero_text_cover h1.heading{
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0;
+}
+.hero_text_cover p{
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 23px 0;
+    font-family: sans-serif;
+}
+.form_feild{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.form_feild input{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.733);
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-family: sans-serif;
+
+}
+.primary_btn{
+    background-color: var(--primary);
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 3px 30px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+}
+.hero_form{
+    text-align: center;
+}
+.main_content h1.heading{
+    color: var(--primary);
+    font-weight: 700;
+    font-family: Oswald, Helvetica, sans-serif !important;
+    font-size: 32px;
+    text-align: center;
+}
+.main_content{
+    background: url("../images/hero-2.1.png");
+    padding: 30px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.points li{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: row;
+}
+.points li .icon{
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--primary);
+    margin-right: 20px;
+}
+.points li p{
+    margin-top: -7px;
+    font-size: 20px;
+    font-family: Lato, Helvetica, sans-serif !important;
+}
+.points_outer{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 30px;
+}
+.main_content .svg_image img{
+    width: 100%;
+}
+.main_content .svg_image{
+    max-width: 95%;
+    margin: 0 auto;
+}
+.main_content .secondary_heading{
+    color: var(--primary);
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 47px 0;
+    background-color: var(--primary);
+}
+.footer .primary-heading{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.footer .primary-heading a{
+    font-family: inherit;
+}
+.footer .primary-heading a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+.content_form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.content_form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.content_form .primary_btn{
+    font-size: 20px;
+    padding: 12px 25px;
+    border: 1px solid #0259a0;
+    border-radius: 0;
+}
